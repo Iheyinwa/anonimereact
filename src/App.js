@@ -9,7 +9,7 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/anime/:animeID" element={<Details />} />
+				<Route path="/anime/:animeId" element={<Details />} />
 			</Routes>
 		</Router>
 	);
