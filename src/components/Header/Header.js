@@ -24,7 +24,7 @@ export default function Header() {
 					<StyledUl>
 						<StyledLi to="/">Home</StyledLi>
 
-						<StyledLi to="/anime/:animeID">List anime</StyledLi>
+						<StyledLi>List anime</StyledLi>
 					</StyledUl>
 				</StyledNav>
 				{state ? <Close onClick={openMenu} /> : <Menu onClick={openMenu} />}

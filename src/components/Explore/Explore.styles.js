@@ -11,23 +11,25 @@ export const Paragraph = styled.p`color: #868686;`;
 export const HeroText = styled.div`
 	position: absolute;
 	bottom: 0%;
-	width: 70%;
+	width: 50%;
 	padding: 30px;
 
-	@media (max-width: 500px) {
-		width: 90%;
-		padding: 10px;
+	@media (max-width: 870px) {
+		width: stretch;
+		padding: 8px;
 	}
 `;
 export const HeroParagraph = styled.p`
-	font-size: 20px;
-	line-height: 30px;
+	line-height: 25px;
+	@media (max-width: 870px) {
+		line-height: normal;
+	}
 `;
 
 export const SectionTitle = styled.h3`
 	font-size: 30px;
 	@media (max-width: 870px) {
-		font-size: 25px;
+		font-size: 16px;
 		width: 100%;
 	}
 `;
@@ -58,7 +60,7 @@ export const Search = styled.input`
 
 export const HeroH3 = styled(StyledH3)`
 @media (max-width: 500px){
-	font-size: 40px;
+	font-size: 16px;
 }
 `;
 export const StyledHeroImg = styled.img`
